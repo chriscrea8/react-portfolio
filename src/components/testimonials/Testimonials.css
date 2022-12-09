@@ -37,7 +37,7 @@
 /* Tablet */
 
 @media screen and (max-width: 1024px) {
-    .container.testimonial__container {
+    .container.testimonials__container {
         width: 60%;
     }
 }
@@ -45,7 +45,7 @@
 /* Small phones */
 
 @media screen and (max-width: 600px) {
-    .container.testimonial__container {
+    .container.testimonials__container {
         width: var(--container-width-sm);
     }
 
