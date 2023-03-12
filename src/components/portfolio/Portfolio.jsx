@@ -8,48 +8,50 @@ import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
 const data = [
+
   {
     id: 1,
     image: IMG1,
     title: 'CRWN Clothing ecommerce',
-    github: 'https://github.com',
+    github: 'https://github.com/chriscrea8/crwn-clothing',
     demo: 'https://chriscrea8-crwn-clothing.netlify.app/'
   },
   {
-    id: 1,
+    id: 2,
     image: IMG2,
     title: 'MovieLab - Movie Search App',
-    github: 'https://github.com',
+    github: 'https://github.com/chriscrea8/react-movielab',
     demo: 'https://chriscrea8-movielab.netlify.app/'
   },
+
   {
-    id: 1,
+    id: 3,
     image: IMG3,
-    title: 'Food',
-    github: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'Qube Tech ecommerce',
+    github: 'https://github.com/chriscrea8/next_ecommerce',
+    demo: 'https://qube-shop.netlify.app/'
   },
   {
-    id: 1,
+    id: 4,
     image: IMG4,
-    title: 'Clone',
-    github: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'EasySwitch Payment Gateway',
+    github: 'https://github.com/chriscrea8/PaymentGateway',
+    demo: 'https://chriscrea8.github.io/PaymentGateway/'
   },
   {
-    id: 1,
+    id: 5,
     image: IMG5,
-    title: 'Netflix',
-    github: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'Clone',
+    github: 'https://github.com/chriscrea8/Ustacky-EMS-Project',
+    demo: 'https://chriscrea8.github.io/Ustacky-EMS-Project/'
   },
   {
-    id: 1,
+    id: 6,
     image: IMG6,
-    title: 'Social',
-    github: 'https://github.com',
-    demo: 'https://github.com'
-  },
+    title: 'OmniFood website',
+    github: 'https://github.com/chriscrea8/OmniFood-Landing-Page',
+    demo: 'https://chriscrea8.github.io/OmniFood-Landing-Page/'
+  }
 ]
 
 const Portfolio = () => {
@@ -60,7 +62,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, github, demo}) => {
+          data.map(({ id, image, title, github, demo }) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
@@ -74,7 +76,7 @@ const Portfolio = () => {
               </article>
             )
           })
-        }       
+        }
       </div>
     </section>
   )
