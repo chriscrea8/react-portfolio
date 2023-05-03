@@ -11,10 +11,10 @@ const data = [
 
   {
     id: 1,
-    image: IMG1,
-    title: 'CRWN Clothing ecommerce',
-    github: 'https://github.com/chriscrea8/crwn-clothing',
-    demo: 'https://chriscrea8-crwn-clothing.netlify.app/'
+    image: IMG3,
+    title: 'Qube Commerce',
+    github: 'https://github.com/chriscrea8/next_ecommerce',
+    demo: 'https://qube-commerce.vercel.app/'
   },
   {
     id: 2,
@@ -26,10 +26,10 @@ const data = [
 
   {
     id: 3,
-    image: IMG3,
-    title: 'Qube Tech ecommerce',
-    github: 'https://github.com/chriscrea8/next_ecommerce',
-    demo: 'https://qube-shop.netlify.app/'
+    image: IMG1,
+    title: 'CRWN Clothing ecommerce',
+    github: 'https://github.com/chriscrea8/crwn-clothing',
+    demo: 'https://chriscrea8-crwn-clothing.netlify.app/'
   },
   {
     id: 4,
